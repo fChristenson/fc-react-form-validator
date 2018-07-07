@@ -1,9 +1,9 @@
 const path = require("path");
 
 module.exports = {
-  entry: path.join(__dirname, "examples", "react", "main.react.js"),
+  entry: path.join(__dirname, "examples", "main.js"),
   output: {
-    path: path.join(__dirname, "examples", "react"),
+    path: path.join(__dirname, "examples"),
     filename: "bundle.js"
   },
   mode: "development",

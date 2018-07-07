@@ -1,6 +1,6 @@
 const React = require("react");
 const ReactDom = require("react-dom");
-const Form = require("../../Form");
+const Form = require("../Form");
 const validateForm = require("fc-form-validator");
 
 const validators = {
