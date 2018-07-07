@@ -1,0 +1,26 @@
+{
+  "name": "fc-react-form-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:react": "npx webpack --config webpack.config.react.js",
+    "build:react:watch": "npx webpack --config webpack.config.react.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-react": "6.24.1",
+    "fc-form-validator": "1.0.0",
+    "jest": "23.2.0",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "webpack": "4.14.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.0.8"
+  }
+}
