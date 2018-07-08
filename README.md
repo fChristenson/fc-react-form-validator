@@ -20,6 +20,6 @@ When you spot a common problem you have the chance to ask the question
 Personally I believe that a good library solves a specific problem
 in a reusable and easy to consume way.
 
-I do not use library for small problems that will take me minutes
+I do not use libraries for small problems that will take me minutes
 to build and I try not to use libraries that solves more problems
 than I have.
