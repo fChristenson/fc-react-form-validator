@@ -3,14 +3,6 @@ const ReactDom = require("react-dom");
 const Form = require("../Form");
 const validateForm = require("fc-form-validator");
 
-/**
- * As the consumer of the library it should be easy for me
- * to provide what the library needs to do the job while
- * abstracting away the details of how it is done from me.
- * 
- * What we are going for is a saving our consumer time in
- * a safe and stable way.
- */
 const validators = {
   username: username => {
     if (username === "") throw new Error("you must have a username");
@@ -48,16 +40,6 @@ class App extends React.Component {
   }
 
   onBlur(event) {
-    /**
-     * Because the library is working with the browsers standard api
-     * and a simple object we could use it in any SPA framework or
-     * directly inside the browser.
-     * 
-     * Libraries do not need to be that generic but remember that
-     * finding a balance between simplicity, reusability and the
-     * size of the problem you are solving is the key to making 
-     * a popular library.
-     */
     const formState = validateForm(event.target.form, validators);
     this.setState({ formState });
   }
